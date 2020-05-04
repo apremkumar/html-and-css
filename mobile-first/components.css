@@ -1,0 +1,54 @@
+:root {
+    --btn-color: #3498db;
+}
+
+.spacer {
+    height: 0.5em;
+}
+
+.btn {
+    height: 3rem;
+    width: 7rem;
+    background: none;
+    color: var(--btn-color);
+    border: solid var(--btn-color);
+}
+
+.btn>.btn-text {
+    font-family: inherit;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: var(--btn-color) !important;
+    color: #fff;
+}
+
+.btn.l-edge {
+    border-top-left-radius: 0.25em;
+    border-bottom-left-radius: 0.25em;
+}
+
+.btn.r-edge {
+    border-top-right-radius: 0.25em;
+    border-bottom-right-radius: 0.25em;
+}
+
+.btn-group>.btn {
+    margin-left: 0;
+    margin-right: 0;
+    border-collapse: collapse;
+}
+
+.note {
+    background-color: #f0f7fb;
+    border: solid 1px #3498db;
+    border-radius: 0.25em;
+    line-height: 18px;
+    height: 2em;
+    margin: 0;
+    text-indent: 1em;
+    padding: 0.35em 0;
+    /* overflow: hidden; */
+    /* padding: 15px 60px; */
+}

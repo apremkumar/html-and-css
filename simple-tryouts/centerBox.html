@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../common/styles/normalize.css">
+    <title>Centered Box</title>
+    <style>
+        html {
+            height: 100%;
+            width: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container {
+            /* margin: auto; */
+            /* width: max-content; */
+            /* box-sizing: border-box; */
+            outline-style: dashed;
+            grid-row: 2;
+            grid-column: 2;
+        }
+
+        body {
+            display: grid;
+            height: inherit;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Hello, World!</h1>
+        <p>I am back.</p>
+    </div>
+</body>
+
+</html>
